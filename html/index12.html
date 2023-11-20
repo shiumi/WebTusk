@@ -17,7 +17,7 @@
 
         </style>
     </head>
-    
+
     <body>
         <form name="" action="https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fceles.club%2Fuploads%2Fposts%2F2021-12%2F1639493133_14-celes-club-p-khatka-bobra-grizuni-krasivo-foto-16.jpg&lr=120836&pos=36&rpt=simage&text=картинки%20бобра" method="post">
             <h1>Форма заявки на работу в зоопарке</h1>
@@ -35,52 +35,66 @@
                     Контактная информация
                 </header>
 
-                <p>
+                <label for="uname">
                     Имя
                     <span class="reddot">
                         *
                     </span>
-                    <input type="text" name="имя">
-                </p>
+                </label>
+                <input type="text" name="имя" id="uname">
+                <br>
 
-                <p>
+                <label for="pnum">
                     Телефон
-                    <input type="text" name="телефон">
-                </p>
+                </label>
+                <input type="text" name="телефон" id="pnum">
+                <br>
 
-                <p>
+                <label for="email">
                     Email
                     <span class="reddot">
                         *
                     </span>
-                    <input type="email" name="email">
-                </p>
+                </label>
+                <input type="email" name="email" id="email">
+                <br>
             </div>
+            <br>
 
             <div class="wb">
                 <header>
                     Персональная информация
                 </header>
 
-                <p>
+                <label for="age">
                     Возраст
                     <span class="reddot">
                         *
                     </span>
-                    <input type="text" name="возраст">
-                </p>
+                </label>
+                <input type="text" name="возраст" id="age">
+                <br>
+
+                <label for="sex">
                     Пол
-                    <select name="sex">
-                        <option>Женщина</option>
-                        <option>Не женщина</option>
-                    </select>
-                <p>
+                </label>
+                <select name="sex" id="sex">
+                    <option>Женщина</option>
+                    <option>Не женщина</option>
+                </select>
+                <br>
+
+                <label for="persona">
                     Перечислите личные качества
-                    <input type="text" name="качества">
-                </p>
+                </label>
+                <input type="text" name="качества" id="persona">
             </div>
+            <br>
 
             <div class="wb">
+                <header>
+                    Выберите ваших любимых животных
+                </header>
                 <p>
                     <input type="checkbox" name="animal">Бобр
                     <input type="checkbox" name="animal">Бобр
