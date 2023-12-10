@@ -1,0 +1,83 @@
+/*1 + 2*/
+div {
+    margin: 0;
+    border: 40px;
+    /*padding: 30px;*/
+}
+
+/*3*/ 
+div.odin {
+    box-sizing: border-box;
+    margin: 0;
+    border: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*padding: 30px;*/
+}
+
+/*4*/ 
+div.dva {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    margin: 0;
+    border: 40px;
+    /*padding: 30px;*/
+}
+
+/*5*/
+span.odin {
+    padding: 10px;
+    border: 2px;
+    background-color: grey;
+}
+
+span.dva {
+    padding: 10px;
+    margin: 20px;
+    border: 2px;
+    background-color: grey;
+}
+
+span.tri {
+    padding: 10px;
+    border: 2px;
+    background-color: gray;
+    display: inline-block;
+}
+
+/*6*/
+#main {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    border: 1px;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+nav {
+    margin: 15px;
+    background-color: burlywood;
+}
+
+ul li {
+    display: inline;
+}
+
+section {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+aside {
+    float: left;
+    width: 220px;
+    margin: 15px 0px;
+    padding: 20px;
+    background-color: aqua;
+}
